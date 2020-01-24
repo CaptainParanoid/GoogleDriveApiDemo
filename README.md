@@ -1,2 +1,2 @@
 # GoogleDriveApiDemo
-A demo to check access via Google Drive API
+After cloning project, copy your service account config json into the resource folder.
