@@ -21,3 +21,12 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+.idea/
+
+GoogleDriveAPI.iml
+
+target/classes/credentials.json
+
+target/classes/
+src/main/resources/service.json
