@@ -20,7 +20,7 @@ import java.util.List;
  * @author Aby Kuruvilla
  */
 public class DriveUtil {
-    private static final String APPLICATION_NAME = "shopnitt-android-project";
+    private static final String APPLICATION_NAME = "DriveUtilForServiceAccount";
     private static final JsonFactory JSON_FACTORY = JacksonFactory.getDefaultInstance();
     private static final List<String> SCOPES = Collections.singletonList(DriveScopes.DRIVE_READONLY);
     private static final String SEPERATOR = "/";

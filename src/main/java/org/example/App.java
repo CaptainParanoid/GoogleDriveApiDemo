@@ -16,7 +16,7 @@ public class App
             driveUrl=args[1];
         }
 
-        DriveUtil.init(App.class.getResourceAsStream("/service.json"));
+        DriveUtil.init(App.class.getResourceAsStream("/config.json"));
         FileOutputStream fos = new FileOutputStream( loc + DriveUtil.getFileNameFileUrl(driveUrl));
         DriveUtil.downloadToStreamWithUrl(fos,driveUrl);
     }

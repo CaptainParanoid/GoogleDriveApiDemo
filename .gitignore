@@ -29,4 +29,4 @@ GoogleDriveAPI.iml
 target/classes/credentials.json
 
 target/classes/
-src/main/resources/service.json
+src/main/resources/config.json
